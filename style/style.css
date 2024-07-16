@@ -35,7 +35,7 @@ text-align: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid rgb(248, 200, 220);
     height:1000px;
     box-shadow: 0px 0px 40px 0px rgba(19, 20, 95, 0.295);
     
@@ -83,7 +83,7 @@ align-items: center;
 }
 .img{
     position:relative;
-    border: 2px solid salmon; 
+    border: 2px solid rgb(248, 200, 220); 
     bottom: 250px;
     left: -80px; 
 
@@ -99,7 +99,7 @@ align-items: center;
 }
 
 .lower{
-    border:2px solid silver;
+    border:2px solid rgb(248, 200, 220);
     margin-top:30px ;
     background-color: aliceblue;
 }
@@ -115,7 +115,7 @@ align-items: center;
     
     box-shadow: 0px 0px 40px 0px rgba(19, 20, 95, 0.295);
    
-    height: 100%;
+    
     margin-top: 50px;
     margin-left: 200px;
     margin-right:200px;
@@ -125,7 +125,7 @@ align-items: center;
 }
 .box{
    width: 100%;
-   border: 2px solid rgba(174, 215, 231, 0.534);
+   border: 2px solid rgb(248, 200, 220);
    margin: 30px 30px;
    gap: 30px;
    display: flex;
@@ -140,7 +140,7 @@ background: rgb(255, 255, 255);
 
    }
    .box:hover{
-    background-color: rgba(174, 215, 231, 0.534);
+    background-color: rgba(207, 91, 134, 0.527);
    }
    .box2{
     display: flex;
@@ -177,3 +177,36 @@ line-height: 70px;
 letter-spacing: 0px;
 text-align: left;
    }
+.checked{
+    color:orange;
+}
+.last{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 100px;
+    color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 30px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+bottom: 100px;
+
+}
+.pics{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 265px;
+    
+    top: 4687px;
+    color: rgba(224, 44, 109, 0.87);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
