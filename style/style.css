@@ -117,8 +117,8 @@ align-items: center;
    
     height: 100%;
     margin-top: 50px;
-    margin-left: 300px;
-    margin-right:300px;
+    margin-left: 200px;
+    margin-right:200px;
 }
 .section:hover{
     background-color: aliceblue;
