@@ -37,6 +37,11 @@ text-align: left;
     align-items: center;
     border: 2px solid black;
     height:1000px;
+    box-shadow: 0px 0px 40px 0px rgba(19, 20, 95, 0.295);
+    
+}
+.middle:hover{
+    background-color: aliceblue;
 }
 .write{
        position:relative;
@@ -105,3 +110,70 @@ align-items: center;
     align-items: center;
     padding: 10px;
 }
+.section{
+    border: 2px solid black;
+    
+    box-shadow: 0px 0px 40px 0px rgba(19, 20, 95, 0.295);
+   
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right:300px;
+}
+.section:hover{
+    background-color: aliceblue;
+}
+.box{
+   width: 500px;
+   border: 2px solid rgba(174, 215, 231, 0.534);
+   margin: 30px 30px;
+   gap: 30px;
+   display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 50px 50px;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 40px 0px rgba(19, 20, 95, 0.295);
+background: rgb(255, 255, 255);
+   
+
+   }
+   .box:hover{
+    background-color: rgba(174, 215, 231, 0.534);
+   }
+   .box2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+   }
+   .box3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+   
+   }
+   .box4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+   }
+   .box2 img{
+    
+    display: flex;
+    justify-content: center;
+   }
+   .h{
+    display: flex;
+    justify-content: center;
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+   }
